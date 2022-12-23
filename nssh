@@ -8,7 +8,7 @@ while read -r line; do
 done <<< $(grep -Poh "(?<=^Host\s)[\w._-]*$" ~/.ssh/config)
 
 HEIGHT=20
-WIDTH=70
+WIDTH=60
 BACKTITLE="Select you SSH connection"
 TITLE="SSH Servers"
 MENU="Choose one of the following servers:"
