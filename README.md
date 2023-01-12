@@ -3,7 +3,14 @@ SSH Ncurses interface to give you a "graphic" overview of your connections: it p
 
 ![screenshot](https://user-images.githubusercontent.com/579861/210282096-6879b641-0c23-4f96-9937-824d9058d5fd.png)
 
-## Installation (works for .deb based and .rpm based systems only)
+## Installation
+Suitable for the following distros:
+- DEB based (requires `apt`)
+- RPM based distro (requires `yum`)
+- Arch (requires `pacman `, thanks @Mistkeithy for the PR)
+
+You need just to run:
+
 `$ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rabbagliettiandrea/nssh/main/install.sh)"`
 
 ## Usage
