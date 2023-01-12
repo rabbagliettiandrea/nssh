@@ -6,9 +6,6 @@ SSH Ncurses interface to give you a "graphic" overview of your connections: it p
 ## Installation (works for .deb based and .rpm based systems only)
 `$ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rabbagliettiandrea/nssh/main/install.sh)"`
 
-## Requirements
-- dialog 
-
 ## Usage
 `$ nssh`
 
