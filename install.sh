@@ -2,11 +2,14 @@
 
 YUM_CMD=$(which yum)
 APT_GET_CMD=$(which apt-get)
+PACMAN_GET_CMD=$(which pacman)
 
 if [[ ! -z $YUM_CMD ]]; then
     yum install -y dialog
 elif [[ ! -z $APT_GET_CMD ]]; then
     apt-get install -y dialog
+elif [[ ! -z $PACMAN_GET_CMD ]]; then
+    pacman -S dialog
 else
     echo "error can't install package dialog"
     exit 1;
