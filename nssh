@@ -4,8 +4,15 @@ trap "clear" EXIT
 
 HOST_LIST=()
 while read -r line; do
-    HOST_LIST+=($line "")
+    if [[ -n "$line" ]] && [[ "$line" != "Host " ]]; then
+        HOST_LIST+=($line "")
+    fi
 done <<< $(grep -Poh "(?<=^Host\s)[\w._-]*$" ~/.ssh/config)
+
+if [ ${#HOST_LIST[@]} -eq 0 ]; then
+    echo "Error: No SSH hosts found in configuration file"
+    exit 1
+fi
 
 HEIGHT=20
 WIDTH=60
