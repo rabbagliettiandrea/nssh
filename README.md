@@ -7,7 +7,7 @@ SSH Ncurses interface to give you a "graphic" overview of your connections: it p
 Suitable for the following distros:
 - DEB based (requires `apt`)
 - RPM based distro (requires `yum`)
-- Arch (requires `pacman `, thanks @Mistkeithy for the PR)
+- Arch (requires `pacman `)
 
 You need just to run:
 
@@ -16,5 +16,11 @@ You need just to run:
 ## Usage
 `$ nssh`
 
+thansk @vitovt for the contribution
+
 ## Contributions
 Feel free to do pull-request, open issues or whatsoever
+
+Thanks for the contributions:
+- @Mistkeithy
+- @vitovt
