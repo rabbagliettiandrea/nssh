@@ -16,8 +16,6 @@ You need just to run:
 ## Usage
 `$ nssh`
 
-thansk @vitovt for the contribution
-
 ## Contributions
 Feel free to do pull-request, open issues or whatsoever
 
