@@ -11,7 +11,7 @@ Suitable for the following distros:
 
 You need just to run:
 
-`$ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rabbagliettiandrea/nssh/main/install.sh)"`
+`$ curl https://raw.githubusercontent.com/rabbagliettiandrea/nssh/main/install.sh | sudo sh`
 
 ## Usage
 `$ nssh`
